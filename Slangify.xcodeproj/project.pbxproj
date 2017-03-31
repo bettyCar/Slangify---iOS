@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB350E4E1E83FBB8000F521D /* SLNChallengeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E4D1E83FBB8000F521D /* SLNChallengeInteractor.swift */; };
+		BB350E571E8432C3000F521D /* SLNPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E551E8432C3000F521D /* SLNPhrase.swift */; };
+		BB350E581E8432C3000F521D /* SLNSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E561E8432C3000F521D /* SLNSpinner.swift */; };
+		BB350E5D1E8432EF000F521D /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB350E591E8432EF000F521D /* RobotoSlab-Bold.ttf */; };
+		BB350E5E1E8432EF000F521D /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB350E5A1E8432EF000F521D /* RobotoSlab-Light.ttf */; };
+		BB350E5F1E8432EF000F521D /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB350E5B1E8432EF000F521D /* RobotoSlab-Regular.ttf */; };
+		BB350E601E8432EF000F521D /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB350E5C1E8432EF000F521D /* RobotoSlab-Thin.ttf */; };
+		BB350E631E843AF6000F521D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB350E611E843AF6000F521D /* FBSDKCoreKit.framework */; };
+		BB350E641E843AF6000F521D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB350E621E843AF6000F521D /* FBSDKLoginKit.framework */; };
+		BB350E681E84409D000F521D /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E671E84409D000F521D /* GradientSlider.swift */; };
+		BB350E6E1E8D71EB000F521D /* SLNWatchVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E6D1E8D71EB000F521D /* SLNWatchVideoViewController.swift */; };
+		BB350E701E8D72A5000F521D /* Selah Sue - This World.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */; };
+		BB350E721E8D7D66000F521D /* SLNVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */; };
+		BB64EB301E82FE450086D0BE /* SLNDomains.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */; };
+		BB8DC5FE1E74916700FAB65A /* SLNChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */; };
+		BB8DC6001E7492D900FAB65A /* SLNVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */; };
+		BB8DC6021E7495A400FAB65A /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC6011E7495A400FAB65A /* GradientColor.swift */; };
+		BB8DC6041E749D5500FAB65A /* GradientColorDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC6031E749D5500FAB65A /* GradientColorDispatcher.swift */; };
 		BBD364F61E74810000FABC1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD364F51E74810000FABC1F /* AppDelegate.swift */; };
-		BBD364F81E74810000FABC1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD364F71E74810000FABC1F /* ViewController.swift */; };
+		BBD364F81E74810000FABC1F /* SLNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD364F71E74810000FABC1F /* SLNLoginViewController.swift */; };
 		BBD364FB1E74810000FABC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD364F91E74810000FABC1F /* Main.storyboard */; };
 		BBD364FD1E74810000FABC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD364FC1E74810000FABC1F /* Assets.xcassets */; };
 		BBD365001E74810000FABC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD364FE1E74810000FABC1F /* LaunchScreen.storyboard */; };
+		BBD365081E74835800FABC1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBD365071E74835800FABC1F /* GoogleService-Info.plist */; };
+		C581F24BCD525599A40D8C69 /* Pods_Slangify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0FF9454FF8A3E762F353C9 /* Pods_Slangify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229FC2C57279153F38A3F969 /* Pods-Slangify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slangify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slangify/Pods-Slangify.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0FF9454FF8A3E762F353C9 /* Pods_Slangify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slangify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB350E4D1E83FBB8000F521D /* SLNChallengeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNChallengeInteractor.swift; sourceTree = "<group>"; };
+		BB350E551E8432C3000F521D /* SLNPhrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLNPhrase.swift; path = Objects/SLNPhrase.swift; sourceTree = "<group>"; };
+		BB350E561E8432C3000F521D /* SLNSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLNSpinner.swift; path = Objects/SLNSpinner.swift; sourceTree = "<group>"; };
+		BB350E591E8432EF000F521D /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Bold.ttf"; path = "Fonts/RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		BB350E5A1E8432EF000F521D /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Light.ttf"; path = "Fonts/RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		BB350E5B1E8432EF000F521D /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Regular.ttf"; path = "Fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		BB350E5C1E8432EF000F521D /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoSlab-Thin.ttf"; path = "Fonts/RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		BB350E611E843AF6000F521D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		BB350E621E843AF6000F521D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		BB350E671E84409D000F521D /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		BB350E6D1E8D71EB000F521D /* SLNWatchVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNWatchVideoViewController.swift; sourceTree = "<group>"; };
+		BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Selah Sue - This World.mp4"; path = "Slangify/Selah Sue - This World.mp4"; sourceTree = "<group>"; };
+		BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNDomains.swift; sourceTree = "<group>"; };
+		BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNChallengeViewController.swift; sourceTree = "<group>"; };
+		BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNVideoViewController.swift; sourceTree = "<group>"; };
+		BB8DC6011E7495A400FAB65A /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		BB8DC6031E749D5500FAB65A /* GradientColorDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColorDispatcher.swift; sourceTree = "<group>"; };
 		BBD364F21E74810000FABC1F /* Slangify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slangify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD364F51E74810000FABC1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBD364F71E74810000FABC1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBD364F71E74810000FABC1F /* SLNLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLNLoginViewController.swift; sourceTree = "<group>"; };
 		BBD364FA1E74810000FABC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBD364FC1E74810000FABC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBD364FF1E74810000FABC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBD365011E74810000FABC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD365071E74835800FABC1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E62452D02CDBA809FF9D5054 /* Pods-Slangify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slangify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slangify/Pods-Slangify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB350E631E843AF6000F521D /* FBSDKCoreKit.framework in Frameworks */,
+				BB350E641E843AF6000F521D /* FBSDKLoginKit.framework in Frameworks */,
+				C581F24BCD525599A40D8C69 /* Pods_Slangify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61C27D6B919D4464AF0DD2FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB350E611E843AF6000F521D /* FBSDKCoreKit.framework */,
+				BB350E621E843AF6000F521D /* FBSDKLoginKit.framework */,
+				AE0FF9454FF8A3E762F353C9 /* Pods_Slangify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9732A9AC0AA9F3323B21744E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				229FC2C57279153F38A3F969 /* Pods-Slangify.debug.xcconfig */,
+				E62452D02CDBA809FF9D5054 /* Pods-Slangify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB350E4F1E83FE5F000F521D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BB350E551E8432C3000F521D /* SLNPhrase.swift */,
+				BB350E561E8432C3000F521D /* SLNSpinner.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		BB350E541E843283000F521D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BB350E591E8432EF000F521D /* RobotoSlab-Bold.ttf */,
+				BB350E5A1E8432EF000F521D /* RobotoSlab-Light.ttf */,
+				BB350E5B1E8432EF000F521D /* RobotoSlab-Regular.ttf */,
+				BB350E5C1E8432EF000F521D /* RobotoSlab-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		BBD364E91E74810000FABC1F = {
 			isa = PBXGroup;
 			children = (
+				BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */,
 				BBD364F41E74810000FABC1F /* Slangify */,
 				BBD364F31E74810000FABC1F /* Products */,
+				9732A9AC0AA9F3323B21744E /* Pods */,
+				61C27D6B919D4464AF0DD2FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +141,24 @@
 		BBD364F41E74810000FABC1F /* Slangify */ = {
 			isa = PBXGroup;
 			children = (
+				BB350E541E843283000F521D /* Fonts */,
+				BB350E4F1E83FE5F000F521D /* Objects */,
 				BBD364F51E74810000FABC1F /* AppDelegate.swift */,
-				BBD364F71E74810000FABC1F /* ViewController.swift */,
+				BBD364F71E74810000FABC1F /* SLNLoginViewController.swift */,
+				BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */,
+				BB350E4D1E83FBB8000F521D /* SLNChallengeInteractor.swift */,
+				BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */,
+				BB350E6D1E8D71EB000F521D /* SLNWatchVideoViewController.swift */,
+				BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */,
 				BBD364F91E74810000FABC1F /* Main.storyboard */,
 				BBD364FC1E74810000FABC1F /* Assets.xcassets */,
+				BB8DC6011E7495A400FAB65A /* GradientColor.swift */,
 				BBD364FE1E74810000FABC1F /* LaunchScreen.storyboard */,
 				BBD365011E74810000FABC1F /* Info.plist */,
+				BBD365071E74835800FABC1F /* GoogleService-Info.plist */,
+				BB8DC6031E749D5500FAB65A /* GradientColorDispatcher.swift */,
+				BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */,
+				BB350E671E84409D000F521D /* GradientSlider.swift */,
 			);
 			path = Slangify;
 			sourceTree = "<group>";
@@ -71,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBD365041E74810000FABC1F /* Build configuration list for PBXNativeTarget "Slangify" */;
 			buildPhases = (
+				A5B1AAB44E02B0E787FC4987 /* [CP] Check Pods Manifest.lock */,
 				BBD364EE1E74810000FABC1F /* Sources */,
 				BBD364EF1E74810000FABC1F /* Frameworks */,
 				BBD364F01E74810000FABC1F /* Resources */,
+				CD606F23EF98584B433481FB /* [CP] Embed Pods Frameworks */,
+				62612AFAC0DFB2ED5E4BB742 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,21 +226,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB350E701E8D72A5000F521D /* Selah Sue - This World.mp4 in Resources */,
+				BB350E5F1E8432EF000F521D /* RobotoSlab-Regular.ttf in Resources */,
 				BBD365001E74810000FABC1F /* LaunchScreen.storyboard in Resources */,
+				BB350E5D1E8432EF000F521D /* RobotoSlab-Bold.ttf in Resources */,
+				BB350E5E1E8432EF000F521D /* RobotoSlab-Light.ttf in Resources */,
+				BBD365081E74835800FABC1F /* GoogleService-Info.plist in Resources */,
 				BBD364FD1E74810000FABC1F /* Assets.xcassets in Resources */,
+				BB350E601E8432EF000F521D /* RobotoSlab-Thin.ttf in Resources */,
 				BBD364FB1E74810000FABC1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62612AFAC0DFB2ED5E4BB742 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slangify/Pods-Slangify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B1AAB44E02B0E787FC4987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD606F23EF98584B433481FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slangify/Pods-Slangify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBD364EE1E74810000FABC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD364F81E74810000FABC1F /* ViewController.swift in Sources */,
+				BBD364F81E74810000FABC1F /* SLNLoginViewController.swift in Sources */,
+				BB350E6E1E8D71EB000F521D /* SLNWatchVideoViewController.swift in Sources */,
 				BBD364F61E74810000FABC1F /* AppDelegate.swift in Sources */,
+				BB350E4E1E83FBB8000F521D /* SLNChallengeInteractor.swift in Sources */,
+				BB64EB301E82FE450086D0BE /* SLNDomains.swift in Sources */,
+				BB350E721E8D7D66000F521D /* SLNVideoPlayerViewController.swift in Sources */,
+				BB350E571E8432C3000F521D /* SLNPhrase.swift in Sources */,
+				BB8DC6041E749D5500FAB65A /* GradientColorDispatcher.swift in Sources */,
+				BB350E581E8432C3000F521D /* SLNSpinner.swift in Sources */,
+				BB350E681E84409D000F521D /* GradientSlider.swift in Sources */,
+				BB8DC6001E7492D900FAB65A /* SLNVideoViewController.swift in Sources */,
+				BB8DC5FE1E74916700FAB65A /* SLNChallengeViewController.swift in Sources */,
+				BB8DC6021E7495A400FAB65A /* GradientColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +426,19 @@
 		};
 		BBD365051E74810000FABC1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229FC2C57279153F38A3F969 /* Pods-Slangify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = WYG8BN39X8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Slangify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Geemodity.Slangify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +448,18 @@
 		};
 		BBD365061E74810000FABC1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62452D02CDBA809FF9D5054 /* Pods-Slangify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WYG8BN39X8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = Slangify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Geemodity.Slangify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +486,7 @@
 				BBD365061E74810000FABC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
