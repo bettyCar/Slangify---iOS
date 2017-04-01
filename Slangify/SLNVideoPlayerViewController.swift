@@ -10,10 +10,26 @@ import Foundation
 import UIKit
 import AVKit
 import AVFoundation
+import FLKAutoLayout
 
 class SLNVideoPlayerViewController : AVPlayerViewController {
     
-    @IBOutlet var playButton : UIButton?
+    let playButton : UIButton = {
+        let button = UIButton()
+        button.setTitle("Play", for: .normal)
+        return button
+    }()
+    
+    fileprivate var videoURL : URL
+    
+    init(videoURL : URL) {
+        self.videoURL = videoURL
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,24 +38,23 @@ class SLNVideoPlayerViewController : AVPlayerViewController {
     
     
     private func setupVideo() {
-        guard let path = Bundle.main.path(forResource: "Selah Sue - This World", ofType:"mp4") else {
-            debugPrint("video not found")
-            return
-        }
-        let player = AVPlayer(url: URL(fileURLWithPath: path))
+        let player = AVPlayer(url: videoURL)
         self.player = player
         self.showsPlaybackControls = false
+        self.view.addSubview(playButton)
+        playButton.align(toView: self.view)
+        playButton.addTarget(self, action: #selector(didTapPlayButton), for: .touchUpInside)
     }
     
     @IBAction func didTapPlayButton() {
         guard ((self.player) != nil) else {return}
         if (self.player?.isPlaying)! {
             self.player?.pause()
-            playButton?.alpha = 1
+            playButton.setTitle("Play", for: .normal)
         }
         else {
             didTapPlayVideo()
-            playButton?.alpha = 0
+            playButton.setTitle("", for: .normal)
         }
     }
     

@@ -21,6 +21,7 @@
 		BB350E701E8D72A5000F521D /* Selah Sue - This World.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */; };
 		BB350E721E8D7D66000F521D /* SLNVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */; };
 		BB64EB301E82FE450086D0BE /* SLNDomains.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */; };
+		BB808C121E8E685C00A0EF62 /* SLNTranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB808C111E8E685C00A0EF62 /* SLNTranslationView.swift */; };
 		BB8DC5FE1E74916700FAB65A /* SLNChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */; };
 		BB8DC6001E7492D900FAB65A /* SLNVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */; };
 		BB8DC6021E7495A400FAB65A /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC6011E7495A400FAB65A /* GradientColor.swift */; };
@@ -51,6 +52,7 @@
 		BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Selah Sue - This World.mp4"; path = "Slangify/Selah Sue - This World.mp4"; sourceTree = "<group>"; };
 		BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNVideoPlayerViewController.swift; sourceTree = "<group>"; };
 		BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNDomains.swift; sourceTree = "<group>"; };
+		BB808C111E8E685C00A0EF62 /* SLNTranslationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNTranslationView.swift; sourceTree = "<group>"; };
 		BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNChallengeViewController.swift; sourceTree = "<group>"; };
 		BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNVideoViewController.swift; sourceTree = "<group>"; };
 		BB8DC6011E7495A400FAB65A /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */,
 				BB350E6D1E8D71EB000F521D /* SLNWatchVideoViewController.swift */,
 				BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */,
+				BB808C111E8E685C00A0EF62 /* SLNTranslationView.swift */,
 				BBD364F91E74810000FABC1F /* Main.storyboard */,
 				BBD364FC1E74810000FABC1F /* Assets.xcassets */,
 				BB8DC6011E7495A400FAB65A /* GradientColor.swift */,
@@ -303,6 +306,7 @@
 				BB8DC6041E749D5500FAB65A /* GradientColorDispatcher.swift in Sources */,
 				BB350E581E8432C3000F521D /* SLNSpinner.swift in Sources */,
 				BB350E681E84409D000F521D /* GradientSlider.swift in Sources */,
+				BB808C121E8E685C00A0EF62 /* SLNTranslationView.swift in Sources */,
 				BB8DC6001E7492D900FAB65A /* SLNVideoViewController.swift in Sources */,
 				BB8DC5FE1E74916700FAB65A /* SLNChallengeViewController.swift in Sources */,
 				BB8DC6021E7495A400FAB65A /* GradientColor.swift in Sources */,

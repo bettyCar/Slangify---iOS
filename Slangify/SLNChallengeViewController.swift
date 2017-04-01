@@ -82,7 +82,6 @@ extension SLNChallengeViewController {
             self.startButton.isEnabled = true
             self.languageField.resignFirstResponder()
             self.spinner.removeSpinner()
-            print("phrase: \(phraseDict)")
         })
     }
     
@@ -103,6 +102,7 @@ extension SLNChallengeViewController {
 extension SLNChallengeViewController : UITextFieldDelegate {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
+        self.languageField.resignFirstResponder()
         // show picker
         UIView.animate(withDuration: 0.2, animations: {
             self.picketTopConstraint.constant = self.picker.frame.size.height

@@ -39,4 +39,12 @@ extension SLNVideoViewController {
             self.present(imagePicker, animated: true, completion: nil)
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! SLNWatchVideoViewController
+        destination.phrase = phrase
+        if let path = Bundle.main.path(forResource: "Selah Sue - This World", ofType:"mp4") {
+            destination.videoURL = URL(fileURLWithPath: path)
+        }
+    }
 }

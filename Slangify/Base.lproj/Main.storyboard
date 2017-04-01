@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p7x-cp-bda">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p7x-cp-bda">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -268,23 +268,7 @@
                     <view key="view" contentMode="scaleToFill" id="gr3-jp-9yk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZR-Ik-xbo">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="360" id="LdF-ja-lye"/>
-                                </constraints>
-                                <connections>
-                                    <segue destination="YZH-0a-EfU" kind="embed" id="srG-kP-VNL"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
                         <color key="backgroundColor" red="0.72177991784513762" green="1" blue="0.38055560685988554" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="nZR-Ik-xbo" firstAttribute="top" secondItem="EiH-ru-Z8Y" secondAttribute="bottom" id="Lsq-lk-ECY"/>
-                            <constraint firstAttribute="leading" secondItem="nZR-Ik-xbo" secondAttribute="leading" id="eUN-ic-ucu"/>
-                            <constraint firstAttribute="trailing" secondItem="nZR-Ik-xbo" secondAttribute="trailing" id="ikz-xv-ywu"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Psl-ki-BFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -296,7 +280,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="p7x-cp-bda" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ybp-OH-oyE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ybp-OH-oyE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -308,44 +292,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X6c-kW-229" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="96.799999999999997" y="-638.2308845577212"/>
-        </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="f0F-k9-62g">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="YZH-0a-EfU" customClass="SLNVideoPlayerViewController" customModule="Slangify" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Mxb-g7-V3E"/>
-                        <viewControllerLayoutGuide type="bottom" id="VDz-c2-3FI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bWG-yV-t3F">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="360"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6O-kI-G0S">
-                                <rect key="frame" x="180" y="200" width="0.0" height="0.0"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="V3B-7I-V30"/>
-                                    <constraint firstAttribute="width" constant="70" id="rIf-Pe-mow"/>
-                                </constraints>
-                                <state key="normal" title="Play"/>
-                                <connections>
-                                    <action selector="didTapPlayButton" destination="YZH-0a-EfU" eventType="touchUpInside" id="e0Z-Ed-Cqi"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="w6O-kI-G0S" firstAttribute="centerX" secondItem="bWG-yV-t3F" secondAttribute="centerX" id="8Nh-sr-mpd"/>
-                            <constraint firstItem="w6O-kI-G0S" firstAttribute="centerY" secondItem="bWG-yV-t3F" secondAttribute="centerY" id="J1O-ap-0JL"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="playButton" destination="w6O-kI-G0S" id="NaP-kw-t6x"/>
-                    </connections>
-                </avPlayerViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IY3-OU-E8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3860" y="-106"/>
         </scene>
     </scenes>
 </document>

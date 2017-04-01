@@ -16,8 +16,9 @@ enum FirebaseDataBase : String {
 
 enum HexColors : String {
     case lightBlue = "#50e3c2"
-    case green = "#00bfa5"
-    case lightGray = "#80ffff"
+    case green = "#39beac"
+    case lightGray = "#fafafa"
+    case purple = "#9012fe"
 }
 
 extension HexColors {
@@ -44,3 +45,21 @@ extension HexColors {
         )
     }
 }
+
+
+enum RobotoSlabFont : String {
+    case regular = "RobotoSlab-Regular"
+    case bold = "RobotoSlab-Bold"
+}
+
+//extension RobotoSlabFont {
+//    
+//    func getName() -> String {
+//        switch self {
+//        case .regular:
+//            return "RobotoSlab-Regular"
+//        case .bold:
+//            return "RobotoSlab-Bold"
+//        }
+//    }
+//}
