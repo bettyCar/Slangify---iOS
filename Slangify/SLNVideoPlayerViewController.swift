@@ -47,9 +47,9 @@ class SLNVideoPlayerViewController : AVPlayerViewController {
     }
     
     @IBAction func didTapPlayButton() {
-        guard ((self.player) != nil) else {return}
-        if (self.player?.isPlaying)! {
-            self.player?.pause()
+        guard let player = self.player else {return}
+        if player.isPlaying {
+            player.pause()
             playButton.setTitle("Play", for: .normal)
         }
         else {
@@ -59,8 +59,8 @@ class SLNVideoPlayerViewController : AVPlayerViewController {
     }
     
     func didTapPlayVideo() {
-        guard ((self.player) != nil) else {return}
-        self.player?.play()
+        guard let player = self.player else {return}
+        player.play()
     }
 }
 

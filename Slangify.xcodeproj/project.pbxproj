@@ -18,10 +18,16 @@
 		BB350E641E843AF6000F521D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB350E621E843AF6000F521D /* FBSDKLoginKit.framework */; };
 		BB350E681E84409D000F521D /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E671E84409D000F521D /* GradientSlider.swift */; };
 		BB350E6E1E8D71EB000F521D /* SLNWatchVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E6D1E8D71EB000F521D /* SLNWatchVideoViewController.swift */; };
-		BB350E701E8D72A5000F521D /* Selah Sue - This World.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */; };
 		BB350E721E8D7D66000F521D /* SLNVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */; };
 		BB64EB301E82FE450086D0BE /* SLNDomains.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */; };
 		BB808C121E8E685C00A0EF62 /* SLNTranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB808C111E8E685C00A0EF62 /* SLNTranslationView.swift */; };
+		BB808C141E91535300A0EF62 /* SLNInfoModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB808C131E91535300A0EF62 /* SLNInfoModalView.swift */; };
+		BB808C3C1E98FFFB00A0EF62 /* SLNStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB808C3B1E98FFFB00A0EF62 /* SLNStorage.swift */; };
+		BB808C3E1E9902DE00A0EF62 /* SLNStorageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB808C3D1E9902DE00A0EF62 /* SLNStorageInterface.swift */; };
+		BB808C401E9919C800A0EF62 /* SLNStorageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB808C3F1E9919C800A0EF62 /* SLNStorageUploader.swift */; };
+		BB81FA091EA0E6E3009B4FCD /* SelahSue-ThisWorld.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BB81FA081EA0E6E3009B4FCD /* SelahSue-ThisWorld.mp4 */; };
+		BB81FA0B1EA0ECC2009B4FCD /* SLNReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FA0A1EA0ECC2009B4FCD /* SLNReachability.swift */; };
+		BB81FA0D1EA0F3DF009B4FCD /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FA0C1EA0F3DF009B4FCD /* NotificationExtension.swift */; };
 		BB8DC5FE1E74916700FAB65A /* SLNChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */; };
 		BB8DC6001E7492D900FAB65A /* SLNVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */; };
 		BB8DC6021E7495A400FAB65A /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DC6011E7495A400FAB65A /* GradientColor.swift */; };
@@ -49,10 +55,16 @@
 		BB350E621E843AF6000F521D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		BB350E671E84409D000F521D /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
 		BB350E6D1E8D71EB000F521D /* SLNWatchVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNWatchVideoViewController.swift; sourceTree = "<group>"; };
-		BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Selah Sue - This World.mp4"; path = "Slangify/Selah Sue - This World.mp4"; sourceTree = "<group>"; };
 		BB350E711E8D7D66000F521D /* SLNVideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNVideoPlayerViewController.swift; sourceTree = "<group>"; };
 		BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNDomains.swift; sourceTree = "<group>"; };
 		BB808C111E8E685C00A0EF62 /* SLNTranslationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNTranslationView.swift; sourceTree = "<group>"; };
+		BB808C131E91535300A0EF62 /* SLNInfoModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNInfoModalView.swift; sourceTree = "<group>"; };
+		BB808C3B1E98FFFB00A0EF62 /* SLNStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNStorage.swift; sourceTree = "<group>"; };
+		BB808C3D1E9902DE00A0EF62 /* SLNStorageInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNStorageInterface.swift; sourceTree = "<group>"; };
+		BB808C3F1E9919C800A0EF62 /* SLNStorageUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNStorageUploader.swift; sourceTree = "<group>"; };
+		BB81FA081EA0E6E3009B4FCD /* SelahSue-ThisWorld.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SelahSue-ThisWorld.mp4"; sourceTree = "<group>"; };
+		BB81FA0A1EA0ECC2009B4FCD /* SLNReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNReachability.swift; sourceTree = "<group>"; };
+		BB81FA0C1EA0F3DF009B4FCD /* NotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
 		BB8DC5FD1E74916700FAB65A /* SLNChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNChallengeViewController.swift; sourceTree = "<group>"; };
 		BB8DC5FF1E7492D900FAB65A /* SLNVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLNVideoViewController.swift; sourceTree = "<group>"; };
 		BB8DC6011E7495A400FAB65A /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
@@ -104,6 +116,7 @@
 		BB350E4F1E83FE5F000F521D /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				BB350E671E84409D000F521D /* GradientSlider.swift */,
 				BB350E551E8432C3000F521D /* SLNPhrase.swift */,
 				BB350E561E8432C3000F521D /* SLNSpinner.swift */,
 			);
@@ -121,10 +134,20 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		BB808C411E991E2000A0EF62 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				BB808C3B1E98FFFB00A0EF62 /* SLNStorage.swift */,
+				BB808C3F1E9919C800A0EF62 /* SLNStorageUploader.swift */,
+				BB808C3D1E9902DE00A0EF62 /* SLNStorageInterface.swift */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
 		BBD364E91E74810000FABC1F = {
 			isa = PBXGroup;
 			children = (
-				BB350E6F1E8D7285000F521D /* Selah Sue - This World.mp4 */,
+				BB81FA081EA0E6E3009B4FCD /* SelahSue-ThisWorld.mp4 */,
 				BBD364F41E74810000FABC1F /* Slangify */,
 				BBD364F31E74810000FABC1F /* Products */,
 				9732A9AC0AA9F3323B21744E /* Pods */,
@@ -143,6 +166,7 @@
 		BBD364F41E74810000FABC1F /* Slangify */ = {
 			isa = PBXGroup;
 			children = (
+				BB808C411E991E2000A0EF62 /* Storage */,
 				BB350E541E843283000F521D /* Fonts */,
 				BB350E4F1E83FE5F000F521D /* Objects */,
 				BBD364F51E74810000FABC1F /* AppDelegate.swift */,
@@ -161,7 +185,9 @@
 				BBD365071E74835800FABC1F /* GoogleService-Info.plist */,
 				BB8DC6031E749D5500FAB65A /* GradientColorDispatcher.swift */,
 				BB64EB2F1E82FE450086D0BE /* SLNDomains.swift */,
-				BB350E671E84409D000F521D /* GradientSlider.swift */,
+				BB808C131E91535300A0EF62 /* SLNInfoModalView.swift */,
+				BB81FA0A1EA0ECC2009B4FCD /* SLNReachability.swift */,
+				BB81FA0C1EA0F3DF009B4FCD /* NotificationExtension.swift */,
 			);
 			path = Slangify;
 			sourceTree = "<group>";
@@ -229,11 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB350E701E8D72A5000F521D /* Selah Sue - This World.mp4 in Resources */,
 				BB350E5F1E8432EF000F521D /* RobotoSlab-Regular.ttf in Resources */,
 				BBD365001E74810000FABC1F /* LaunchScreen.storyboard in Resources */,
 				BB350E5D1E8432EF000F521D /* RobotoSlab-Bold.ttf in Resources */,
 				BB350E5E1E8432EF000F521D /* RobotoSlab-Light.ttf in Resources */,
+				BB81FA091EA0E6E3009B4FCD /* SelahSue-ThisWorld.mp4 in Resources */,
 				BBD365081E74835800FABC1F /* GoogleService-Info.plist in Resources */,
 				BBD364FD1E74810000FABC1F /* Assets.xcassets in Resources */,
 				BB350E601E8432EF000F521D /* RobotoSlab-Thin.ttf in Resources */,
@@ -299,17 +325,23 @@
 				BBD364F81E74810000FABC1F /* SLNLoginViewController.swift in Sources */,
 				BB350E6E1E8D71EB000F521D /* SLNWatchVideoViewController.swift in Sources */,
 				BBD364F61E74810000FABC1F /* AppDelegate.swift in Sources */,
+				BB81FA0B1EA0ECC2009B4FCD /* SLNReachability.swift in Sources */,
 				BB350E4E1E83FBB8000F521D /* SLNChallengeInteractor.swift in Sources */,
 				BB64EB301E82FE450086D0BE /* SLNDomains.swift in Sources */,
 				BB350E721E8D7D66000F521D /* SLNVideoPlayerViewController.swift in Sources */,
 				BB350E571E8432C3000F521D /* SLNPhrase.swift in Sources */,
 				BB8DC6041E749D5500FAB65A /* GradientColorDispatcher.swift in Sources */,
 				BB350E581E8432C3000F521D /* SLNSpinner.swift in Sources */,
+				BB81FA0D1EA0F3DF009B4FCD /* NotificationExtension.swift in Sources */,
 				BB350E681E84409D000F521D /* GradientSlider.swift in Sources */,
+				BB808C3E1E9902DE00A0EF62 /* SLNStorageInterface.swift in Sources */,
 				BB808C121E8E685C00A0EF62 /* SLNTranslationView.swift in Sources */,
+				BB808C141E91535300A0EF62 /* SLNInfoModalView.swift in Sources */,
 				BB8DC6001E7492D900FAB65A /* SLNVideoViewController.swift in Sources */,
+				BB808C3C1E98FFFB00A0EF62 /* SLNStorage.swift in Sources */,
 				BB8DC5FE1E74916700FAB65A /* SLNChallengeViewController.swift in Sources */,
 				BB8DC6021E7495A400FAB65A /* GradientColor.swift in Sources */,
+				BB808C401E9919C800A0EF62 /* SLNStorageUploader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

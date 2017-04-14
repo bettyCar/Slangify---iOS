@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52331061D06F2DEBE6B8BDBE1039CD4B"
+               BlueprintIdentifier = "102080B371F056C9698FCC924FD4DD79"
                BuildableName = "Pods_Slangify.framework"
                BlueprintName = "Pods-Slangify"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52331061D06F2DEBE6B8BDBE1039CD4B"
+            BlueprintIdentifier = "102080B371F056C9698FCC924FD4DD79"
             BuildableName = "Pods_Slangify.framework"
             BlueprintName = "Pods-Slangify"
             ReferencedContainer = "container:Pods.xcodeproj">

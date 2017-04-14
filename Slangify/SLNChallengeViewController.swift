@@ -35,6 +35,28 @@ class SLNChallengeViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        ReachabilityNotification.observeReachability(listener: self, selector: #selector(self.reachabilityChanged(note:)))
+    }
+    
+    deinit {
+        ReachabilityNotification.stopObservingReachbility(listener: self)
+    }
+    
+    func reachabilityChanged(note: NSNotification) {
+        if let status = note.object, status is ReachabilityStatus {
+            switch status {
+            case ReachabilityStatus.resumed:
+                if self.languagesArray.count == 0 {
+                    getLanguages()
+                }
+                if let language = languageField.text, language.characters.count > 0 {
+                    getPhrase()
+                }
+            case ReachabilityStatus.stopped:
+                print("") // show something
+            default: print("")
+            }
+        }
     }
 }
 
@@ -50,11 +72,15 @@ extension SLNChallengeViewController {
         textFieldLine.backgroundColor = HexColors.lightBlue.getColor()
         languageField.textColor = UIColor.white
         
+        getLanguages()
+    }
+    
+    func getLanguages() {
         // show spinner
         spinner.showSpinner(self.view)
         // get all languages and load picker
         interactor.getAllLanguages { (languages) in
-            self.languagesArray = languages 
+            self.languagesArray = languages
             DispatchQueue.main.async(execute: {
                 self.picker.reloadAllComponents()
                 self.spinner.removeSpinner()
@@ -62,13 +88,7 @@ extension SLNChallengeViewController {
         }
     }
     
-    @IBAction func didPickerDone() {
-        // hide picker
-        UIView.animate(withDuration: 0.2) {
-            self.picketTopConstraint.constant = -self.toolBar.frame.size.height
-            self.view.setNeedsLayout()
-            self.view.layoutIfNeeded()
-        }
+    func getPhrase() {
         // show spinner
         self.spinner.showSpinner(self.view)
         // get phrases and randomly pick one
@@ -83,6 +103,16 @@ extension SLNChallengeViewController {
             self.languageField.resignFirstResponder()
             self.spinner.removeSpinner()
         })
+    }
+    
+    @IBAction func didPickerDone() {
+        // hide picker
+        UIView.animate(withDuration: 0.2) {
+            self.picketTopConstraint.constant = -self.toolBar.frame.size.height
+            self.view.setNeedsLayout()
+            self.view.layoutIfNeeded()
+        }
+        getPhrase()
     }
     
     @IBAction func startChallenge() {

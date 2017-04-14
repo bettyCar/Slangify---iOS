@@ -9,7 +9,8 @@ target 'Slangify' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
-
+pod 'Firebase/Storage'
 pod 'FLKAutoLayout'
+pod 'ReachabilitySwift', '~> 3'
 
 end

@@ -18,7 +18,7 @@ enum HexColors : String {
     case lightBlue = "#50e3c2"
     case green = "#39beac"
     case lightGray = "#fafafa"
-    case purple = "#9012fe"
+    case purple = "#9012fe" //b38f12
 }
 
 extension HexColors {
